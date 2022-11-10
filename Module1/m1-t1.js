@@ -1,9 +1,15 @@
 'use strict';
-// Tehtävä 1
-/* let kohde = document.querySelector('#message')
 
+// Tehtävä 1
+// let kohde = document.querySelector('#message')
 console.log("I'm printing to console!")
-*/
+
+
+
+// (Nämä oli kaikki alun perin samassa tiedostossa, en vain raaskinut poistaa niitä siltä varalta jos jotain meni pieleen)
+
+
+
 
 // Tehtävä 2
 /*
@@ -142,6 +148,7 @@ else {
 
 //Tehtävä 10
 
+/*
 let kohde = document.querySelector('#message')
 let dice = parseInt(prompt("How many dice do you want to throw?"))
 let probability = parseInt(prompt("Which sum do you want the probability of?"))
@@ -159,4 +166,4 @@ for (let r = 0; r != repetitions; r++) {
     }
 }
 
-kohde.innerHTML = "The probability to get " + probability + " with " + dice +" dice is " + (correct / 100).toFixed(2) + "%";
+kohde.innerHTML = "The probability to get " + probability + " with " + dice +" dice is " + (correct / 100).toFixed(2) + "%"; */
