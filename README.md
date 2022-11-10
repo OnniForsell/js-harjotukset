@@ -1,0 +1,2 @@
+# js-harjotukset
+Javascript kotiläksyjä
