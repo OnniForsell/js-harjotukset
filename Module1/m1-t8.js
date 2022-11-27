@@ -1,4 +1,5 @@
-let kohde = document.querySelector('#message')
+let kohde = document.querySelector('#message');
+
 let alku = parseInt(prompt("Anna alkuvuosi!"));
 let loppu = parseInt(prompt("Anna loppuvuosi!"));
 
@@ -9,9 +10,9 @@ for (let v = alku; v <= loppu; v++)
     {
         html += '<li>';
         html += v;
-        html += '</li>'
+        html += '</li>';
     }
 }
-html += '</ul>'
+html += '</ul>';
 
-kohde.innerHTML = html
+kohde.innerHTML = html;

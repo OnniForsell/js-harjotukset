@@ -7,13 +7,13 @@ in an ordered list (<ol>) in the same order as they were entered. */
 let kohde = document.querySelector('#message');
 
 // Ask for the number of participants
-let numOfParticipants = parseInt(prompt("Give the number of participants: "))
+let numOfParticipants = parseInt(prompt("Give the number of participants: "));
 
 // Ask for the name of each participant then store them in the list below
 let participants = []
 for (let i = 0; i < numOfParticipants; i++){
-    let participant = prompt("Name of participant " + (i + 1) + ": ")
-    participants.push(participant)
+    let participant = prompt("Name of participant " + (i + 1) + ": ");
+    participants.push(participant);
 }
 
 // Make an open ordered list tag with the following line

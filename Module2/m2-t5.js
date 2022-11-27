@@ -6,22 +6,21 @@ and then prints all the given numbers to the console in ascending order. */
 
 let kohde = document.querySelector('#message')
 
-// Check if the loop on line 12 can still run
-let askingForNum = true
 let numberList = []
 
 // While true, will ask for number
-while (askingForNum){
+while (true){
     let number = parseInt(prompt("Give a number"))
-    // If true, will stop the loop, otherwise it'll add it to the list
+    // If the given number is already in the numberList array, the loop will stop
     if (numberList.includes(number)){
         alert("That's a duplicate of a previous number")
-        askingForNum = false
+        break
     }
+    // Otherwise it's added to the array
     else{
         numberList.push(number)
     }
 }
 
-numberList.sort()
+numberList.sort((a,b) => a-b)
 console.log(numberList)
