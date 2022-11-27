@@ -1,12 +1,12 @@
-const d = document.getElementById('divider');
-const p = document.createElement('ul');
-p.id = 'target'
-
-d.appendChild(p);
-
-document.getElementById('target').innerHTML = '<li>First item</li>\n' +
-    '<li id="second">Second item</li>\n' +
-    '<li>Third item</li>'
-
-element = document.getElementById('second');
-element.classList.add('my-item');
+'use strict';
+let list = document.getElementById('target');
+let list_item_1 = document.createElement('li');
+list_item_1.innerText = 'First Item';
+list.appendChild(list_item_1);
+let list_item_2 = document.createElement('li')
+list_item_2.innerText = 'Second item';
+list_item_2.classList.add('my-item');
+list.appendChild(list_item_2);
+let list_item_3 = document.createElement('li')
+list_item_3.innerText = 'Third item';
+list.appendChild(list_item_3);
