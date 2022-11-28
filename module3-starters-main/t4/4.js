@@ -17,6 +17,8 @@ const students = [
 let list = document.getElementById('target')
 
 for (let i = 0; i !== students.length; i++){
-  list.innerHTML += '<option value="'+ students[i].id +'">' + students[i].name +'</option>'
-
+  let item = document.createElement('option')
+  item.innerText = students[i].name
+  item.value = students[i].id
+  list.appendChild(item)
 }
