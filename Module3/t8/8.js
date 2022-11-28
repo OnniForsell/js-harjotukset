@@ -9,18 +9,14 @@ function calculate(){
 if (x === 'add') {
     document.getElementById("result").innerHTML = parseInt(number1) + parseInt(number2);
 }
-
 else if (x === 'sub') {
     document.getElementById("result").innerHTML = parseInt(number1) - parseInt(number2);
 }
-
 else if (x === 'multi') {
     document.getElementById("result").innerHTML = parseInt(number1) * parseInt(number2);
 }
-
 else if (x === 'div') {
     document.getElementById("result").innerHTML = parseInt(number1) / parseInt(number2);
 }
-
 }
 

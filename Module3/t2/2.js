@@ -7,7 +7,7 @@ for (let i = 0; i !== items.length; i++){
     list_item.innerText = items[i];
     list.appendChild(list_item);
 
-    if (list_item.innerText == 'Second item'){
-        list_item.classList.add('my-item')
+    if (i === 1){
+        list_item.classList.add('my-item');
     }
 }
