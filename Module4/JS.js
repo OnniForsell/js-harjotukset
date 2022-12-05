@@ -57,7 +57,6 @@ async function getShow(name){
             let itemLink = document.createElement('a');
             itemLink.innerText = 'Link to details'
             itemLink.href = data[i].show.url;
-            itemLink.className = 'myBtn';
 
             itemLink.addEventListener('click', function (){
                 event.preventDefault()
@@ -121,23 +120,11 @@ button.addEventListener('click', async function(event){
 
 // Get the modal
 const modal = document.getElementById("myModal");
-const iframe = document.getElementById("my-frame");
+const iframe = document.getElementById("i-frame");
 
-// Get the button that opens the modal
-
-// Get the <span> element that closes the modal
-const span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the modal
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target === modal) {
+    iframe.src = "#"
     modal.style.display = "none";
   }
 }
