@@ -1,0 +1,58 @@
+body {
+    background-color: #0D0B11;
+    color: white;
+    font-size: 30px;
+    font-family: "Calibri", serif;
+}
+
+input{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+    background-color: whitesmoke;
+}
+
+#search-area{
+    text-align: center;
+    margin: 2rem;
+    font-size: 30px;
+}
+
+#result{
+    background-color: black;
+    border-radius: 1rem;
+    border-width: 10px;
+    border-style: groove;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+a{
+    color: white;
+}
+
+img{
+    padding: 1rem;
+}
+
+p{
+    text-align: center;
+    position: relative;
+    margin: auto;
+    padding-bottom: 1rem;
+    width: 95%;
+}
+
+.wrapper{
+    background-color: #0D0B11;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    width: 80%
+}
